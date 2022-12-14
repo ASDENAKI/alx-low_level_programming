@@ -38,6 +38,7 @@ int main(void)
 
 		if (i != 98)
 		{
+			printf(", ");
 			num1_half1 = num2_half1;
 			num1_half2 = num2_half2;
 			num2_half1 = half1;
