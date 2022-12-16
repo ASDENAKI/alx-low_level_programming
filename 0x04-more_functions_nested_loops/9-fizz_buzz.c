@@ -1,10 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - prints fizz buzz
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -32,4 +31,5 @@ void main(void)
 		}
 	}
 	printf("\n");
+	return (0);
 }
