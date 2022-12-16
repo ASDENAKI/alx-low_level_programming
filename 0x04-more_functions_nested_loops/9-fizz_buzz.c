@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints fizz buzz
+ * Return: Always 0
  */
 
 int main(void)
