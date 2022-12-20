@@ -28,7 +28,7 @@ int _atoi(char *s)
 		do {
 			j = j * 10 + (*temp - '0');
 			temp++;
-		} while (*temp >= '0' && *temp <= 9);
+		} while (*temp >= '0' && *temp <= '9');
 	}
 	return (j * i);
 }
