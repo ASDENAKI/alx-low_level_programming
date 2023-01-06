@@ -10,6 +10,8 @@ int main(int a, char *b[])
 {
 	int index, mul;
 
+	mul = 1;
+
 	if (a < 3)
 	{
 		printf("Error\n");
