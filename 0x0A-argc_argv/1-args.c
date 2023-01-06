@@ -2,13 +2,13 @@
 #include <stdlib.h>
 /**
  * main - a program that prints the number of arguments passed into it.
- * @a: count
- * @b: vector
+ * @args: count
+ * @argv: vector
  * Return: zero
  */
-int main(int a, int *b[])
+int main(int args, int *argv[])
 {
-	printf("%d\n", a - 1);
-	(void)b;
+	printf("%d\n", args - 1);
+	(void)argv;
 	return (0);
 }
