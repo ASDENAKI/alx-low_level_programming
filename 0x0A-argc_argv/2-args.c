@@ -6,7 +6,7 @@
  * @b: vector
  * Return: zero
  */
-int main(int a, int *b[])
+int main(int a, char *b[])
 {
 	int n;
 
