@@ -21,7 +21,7 @@ int main(int a, char *b[])
 		printf("0\n");
 		return (0);
 	}
-	for (; c >= 0)
+	for (; c >= 0;)
 	{
 		if (c >= 25)
 			c -= 25;
