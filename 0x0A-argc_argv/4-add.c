@@ -8,7 +8,7 @@
  * @b: vector
  * Return: zero
  */
-int main(int a, char *b[])
+int main(int a, char *d[])
 {
 	int sum = 0, i;
 
@@ -19,7 +19,7 @@ int main(int a, char *b[])
 			int b;
 			char *c;
 
-			c = b[i];
+			c = d[i];
 			for (b = 0; c[b] != '\0'; b++)
 			{
 				if (c[b] < 48 || c[b] > 57)
@@ -32,7 +32,7 @@ int main(int a, char *b[])
 	}
 	for (i = 1; i < a; i++)
 	{
-		sum += atoi(b[i]);
+		sum += atoi(d[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
