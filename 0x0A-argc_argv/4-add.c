@@ -8,5 +8,30 @@
  */
 int main(int a, int *b[])
 {
-	
+	int sum = 0, i;
+
+	if (a > 1)
+	{
+		for (i = 1; i < a; i++)
+		{
+			int b;
+			char *c;
+
+			c = b[i];
+			for (b = 0; c[b] != '\0'; b++)
+			{
+				if (c[b] < 48 || c[b] > 57)
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+		}
+	}
+	for (i = 1; i < a; i++)
+	{
+		sum += atoi(b[i]);
+	}
+	printf("%d\n", sum);
+	return (0);
 }
