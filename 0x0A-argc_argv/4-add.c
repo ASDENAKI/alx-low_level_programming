@@ -5,7 +5,7 @@
 /**
  * main - a program that adds positive numbers.
  * @a: count
- * @b: vector
+ * @d: vector
  * Return: zero
  */
 int main(int a, char *d[])
