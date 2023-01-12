@@ -10,17 +10,24 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *p;
-	unsigned int size1 = 0, size2 = 0; i;
+	unsigned int size1 = 0, i;
+	unsigned int size2 = 0;
 
 	if (size1 == NULL)
 		s1 = "";
+
 	if (size2 == NULL)
 		s2 = "";
 
 	while (s1[size1] != '\0')
+	{
 		s1++;
+	}
+
 	while (s2[size2] != '\0')
+	{
 		s2++;
+	}
 
 	if (n > size2)
 	n = size2;
