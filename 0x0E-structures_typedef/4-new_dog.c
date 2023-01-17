@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * length - calculates length of string
+ * _length - calculates length of string
  * @str: the string
  * Return: pointer
  */
@@ -56,7 +56,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggo);
 		return (NULL);
 	}
-	
+
 	doggo->owner = malloc(sizeof(char) * _length(owner) + 1);
 	if (doggo->owner == NULL)
 	{
@@ -67,7 +67,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	doggo->name = _strcpy(doggo->name, name);
 	doggo->age = age;
-	doggo->owner= _strcpy(doggo->owner, owner);
+	doggo->owner = _strcpy(doggo->owner, owner);
 
 	return (doggo);
 
