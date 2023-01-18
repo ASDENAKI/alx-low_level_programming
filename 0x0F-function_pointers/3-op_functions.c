@@ -3,7 +3,7 @@
 /**
  * op_add - addition function
  * @a: first number
- * @: second number
+ * @b: second number
  * Return: sum
  */
 int op_add(int a, int b)
@@ -15,7 +15,7 @@ int op_add(int a, int b)
  * @a: number subtracted from
  * @b: the umber subtracted
  * Return: difference
- */ 
+ */
 int op_sub(int a, int b)
 {
 	return (a - b);
@@ -33,7 +33,7 @@ int op_mul(int a, int b)
 /**
  * op_div - division function
  * @a: numinator
- * @b dinominator
+ * @b: dinominator
  * Return: dividend
  */
 int op_div(int a, int b)
