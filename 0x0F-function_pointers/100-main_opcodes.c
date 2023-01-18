@@ -3,7 +3,7 @@
 /**
  * main - a program that prints the opcodes of its own main function
  * @argc: number of arguments
- * argv: array of args
+ * @argv: array of args
  * Return: 0
  */
 int main(int argc, char *argv[])
