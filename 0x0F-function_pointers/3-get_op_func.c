@@ -1,4 +1,4 @@
-#include "3-clac.h" 
+#include "3-calc.h" 
 /**
  * get_op_func - selects the correct function to perform the operation asked
  * @s: the ioperator
@@ -7,12 +7,12 @@
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
-		{"+", op_add};
-		{"-", op_sub};
-		{"/", op_div};
-		{"*", op_mul};
-		{"%", op_mod};
-		{NULL, NULL};
+		{"+", op_add},
+		{"-", op_sub},
+		{"/", op_div},
+		{"*", op_mul},
+		{"%", op_mod},
+		{NULL, NULL}
 	};
 	int i;
 
